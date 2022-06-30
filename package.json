@@ -1,0 +1,14 @@
+{
+  "name": "task1",
+  "version": "1.0.0",
+  "description": "Web Assignment Task-1 Jem Zoo",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "build": "npx tailwindcss-cli@latest build src/style.css -o dist/style.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss-transforms": "^2.2.0"
+  }
+}

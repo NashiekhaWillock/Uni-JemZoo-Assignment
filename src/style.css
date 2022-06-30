@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.dot.active {
+    @apply border-solid; 
+    @apply border-2;
+    @apply bg-nav-green;
+  }
+  
+
+  
+  

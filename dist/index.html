@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="JEM ZOO - Home">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="/ccs/style.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
+  <link rel="manifest" href="/icons/manifest.json">
+  <link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#54761f">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>JEM ZOO - Home</title>
+</head>
+
+<body class="bg-body dark:bg-gray-900">
+  <!-- Main-Content -->
+  <main>
+    <!-- header -->
+    <header class=" bg-green-900 dark:bg-gray-900">
+      <!-- Navigation -->
+      <nav class="flex items-center bg-green-900 dark:bg-gray-900 dark:text-white p-3 flex-wrap  font-medium md:text-lg">
+        <a href="index.html" class="p-2 mr-4 inline-flex items-center">
+          <picture class="p-1 bg-white mr-2 ">
+            <img src="/images/zoo.png" alt="picture of the JEM ZOO logo" srcset="" width="60px">
+          </picture>
+          <span class="text-4xl md:text-5xl text-white font-bold uppercase tracking-wide">Jem Zoo</span>
+        </a>
+        <button
+          class="text-white inline-flex p-3 hover:bg-gray-900 rounded lg:hidden ml-auto hover:text-white outline-none nav-toggler"
+          data-target="#navigation">
+          <i class="material-icons">Menu</i>
+        </button>
+        <div class="hidden top-navbar w-full lg:inline-flex  lg:w-auto" id="navigation">
+          <div
+            class="lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start  flex flex-col lg:h-auto">
+            <a href="ourzoo.html"
+              class="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:bg-green-700 hover:text-white">
+              <span>Our Zoo</span>
+            </a>
+            <a href="animals.html"
+              class="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:bg-green-700 hover:text-white">
+              <span>Our Animals</span>
+            </a>
+            <a href="visit.html"
+              class="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:bg-green-700 hover:text-white">
+              <span>Plan Your Visit</span>
+            </a>
+            <a href="tickets.html"
+              class="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:bg-green-700 hover:text-white">
+              <span>Tickets</span>
+            </a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="bg-green-900 dark:bg-gray-900">
+      <!-- Slide -->
+      <div class="slide-container flex justify-center items-center max-w-4xl m-auto relative rounded-lg border-2 border-green-300 dark:border-white">
+        <div class="slide fade">
+          <img src="/images/jem_zoo_banner.jpg" alt="picture of leopard with text 'get healthy get outside support the zoo have fun' JEM ZOO" class=" w-full rounded-lg">
+        </div>
+        <div class="slide fade">
+          <img src="/images/Gorilla-banner.jpg" alt="picture of gorilla at JEM ZOO" class="w-full rounded-lg">
+        </div>
+        <div class="slide fade">
+          <img src="/images/Elephant-banner.jpg" alt="picture of elephants at JEM ZOO" class="w-full rounded-lg">
+        </div>
+        <a href="#"
+          class="prev cursor-pointer absolute top-1/2 w-auto -mt-5 p-3 text-white text-xl transition-all ease-in rounded-xl select-none hover:bg-green-900 left-1"
+          title="Previous">&#10094</a>
+        <a href="#"
+          class="next cursor-pointer absolute top-1/2 w-auto -mt-5 p-3 text-white text-xl transition-all ease-in rounded-xl select-none hover:bg-green-900 right-1"
+          title="Next">&#10095</a>
+      </div>
+      <!-- Slide-buttons -->
+      <div class="dots-container flex justify-center items-center p-2 cursor-pointer bg-green-900 dark:bg-gray-900"
+        style="text-align:center">
+        <span class="dot cursor-pointer m-1 w-5 h-5 bg-white rounded-2xl"></span>
+        <span class="dot cursor-pointer m-1 w-5 h-5 bg-white rounded-2xl"></span>
+        <span class="dot cursor-pointer m-1 w-5 h-5 bg-white rounded-2xl"></span>
+      </div>
+    </div>
+
+    <div class="relative items-center justify-center">
+      <!-- Cards Container -->
+      <div>
+        <div class="max-w-6xl mx-auto px-8 py-16 pb-0 md:pb-10">
+          <div class="relative">
+            <div class="relative lg:flex rounded-lg border-4 border-yellow-900 dark:border-white shadow-2xl overflow-hidden lg:h-72 min-h-full">
+              <div class="h-56 lg:h-auto lg:w-5/12 relative flex items-center justify-center">
+                <img class="absolute h-full w-auto object-cover" src="/images/zoo.png" alt="picture of JEM ZOO logo" />
+                <div class="absolute inset-0 bg-brown dark:bg-gray-500 opacity-80 dark:opacity-20"></div>
+              </div>         
+              <div class="relative lg:w-7/12 bg-white">
+                <svg class="absolute h-full text-white w-24 -ml-12" fill="currentColor" viewBox="0 0 100 100"
+                  preserveAspectRatio="none">
+                  <polygon points="50,0 100,0 50,100 0,100" />
+                </svg>
+                <div class="relative py-12 lg:py-24 px-8 lg:px-16 text-gray-700 leading-relaxed lg:pt-0">
+                  <h1 class=" text-center text-lg md:text-4xl font-bold p-4 text-gray-900 pb-0">Welcome To JEM ZOO</h1>
+                  <h2 class="text-lg text-center font-bold pb-2">(Wolverhampton)</h2>
+                  <p>
+                    <strong class="text-gray-900 font-bold text-base md:text-2xl"> Together, we Got this!</strong>
+                  </p>
+                  <p>Our gates have closed once again, until further notice. &mdash; If you’d like to help our wildlife
+                    charity during our latest closure then there are lots of ways you can do so…</p>
+                  <p class="mt-6">
+                    <a href="ourzoo.html" class="font-medium text-yellow-900 hover:text-gray-700">Learn how you can <b>Support
+                        Us</b>
+                      &rarr;</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="relative items-center justify-center m-auto">
+        <!-- Cards Container 2 -->
+        <div class="lg:flex items-center container mx-auto my-auto m-auto lg:justify-center">
+          <!-- Card 3 -->
+          <div class="lg:m-4 shadow-md hover:shadow-lg rounded-lg border-4 border-gray-700 dark:border-white  bg-gray-300 dark:bg-gray-600 my-12 mx-8 pt-0 lg:w-97">
+            <!-- Card Image -->
+            <img src="/images/kids_zone.png" alt="picture of animated kids' zone text" class="overflow-hidden">
+            <!-- Card Content -->
+            <div class="p-4">
+              <h3 class="font-medium text-gray-600 text-lg my-2 uppercase dark:text-white">Kid's Zone</h3>
+              <p class="text-justify dark:text-white">Learn all about animals close to extinction and how you can do your part to help
+                and
+                have fun doing it too. Help Us Save The Animals!!!</p>
+              <div class="mt-5">
+                <a href="kids.html"
+                  class="block m-auto w-44 rounded-full py-2 px-3 font-semibold bg-gradient-to-tr from-pink-500 via-gray-900 to-yellow-300 text-gray-100 hover:from-yellow-400 hover:via-blue-900 hover:to-blue-400 transition-colors duration-200">
+                  Enter The Fun Zone
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- Price Table -->
+          <div class="md:p-2">
+            <h3 class="font-extrabold text-gray-600 text-lg md:text-2xl my-2 uppercase text-center dark:text-white">Cost of Entrance
+            </h3>
+            <table class="shadow-lg border-4 border-green-900 dark:border-green-400  bg-white md:text-lg text-sm my-0 md:w-100 w-48 lg:w-full m-auto">
+              <tr>
+                <th class="bg-green-900 border text-left px-4 md:px-8 md:py-4 text-white">Who</th>
+                <th class="bg-green-900 border text-left px-4 md:px-8 md:py-4 text-white">Conditions</th>
+                <th class="bg-green-900 border text-left px-4 md:px-8 md:py-4 text-white">Price</th>
+              </tr>
+              <tr>
+                <td class="border px-2 md:px-8 md:py-4">Adult</td>
+                <td class="border px-2 md:px-8 md:py-4">16 Plus</td>
+                <td class="border px-2 md:px-8 md:py-4">£24.95</td>
+              </tr>
+              <tr>
+                <td class="border px-2 md:px-8 md:py-4">Student</td>
+                <td class="border px-2 md:px-8 md:py-4">N/A T/C apply*, Student ID may be required.</td>
+                <td class="border px-2 md:px-8 md:py-4">£22.95</td>
+              </tr>
+              <tr>
+                <td class="border px-2 md:px-8 md:py-4">Child</td>
+                <td class="border px-2 md:px-8 md:py-4">16 & under</td>
+                <td class="border px-2 md:px-8 md:py-4">£20.95</td>
+              </tr>
+              <tr>
+                <td class="border px-2 md:px-8 md:py-4">Seniors</td>
+                <td class="border px-2 md:px-8 md:py-4">over 65</td>
+                <td class="border px-2 md:px-8 md:py-4">£23.95</td>
+              </tr>
+              <tr>
+                <td class="border px-2 md:px-8 md:py-4">Babies</td>
+                <td class="border px-2 md:px-8 md:py-4">2 & Under</td>
+                <td class="border px-2 md:px-8 md:py-4">Free</td>
+              </tr>
+              <tr>
+                <td class="border px-2 md:px-8 md:py-4">Carers/NHS/Military</td>
+                <td class="border px-2 md:px-8 md:py-4">N/A, *ID may be required</td>
+                <td class="border px-2 md:px-8 md:py-4">Free</td>
+              </tr>
+            </table>
+            <div class="mt-5">
+              <a href="tickets.html"
+                class="block m-auto w-44 text-center hover:bg-gray-700 rounded-full py-2 px-3 font-semibold hover:text-white bg-green-900 text-white"><i
+                  class="fa fa-ticket"></i> Buy Tickets</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="lg:flex items-center container mx-auto my-auto">
+        <!-- Card 1 -->
+        <div class="lg:m-4 shadow-md hover:shadow-lg rounded-lg my-12 mx-8 bg-white border-4 border-black dark:border-white">
+          <!-- Card Image -->
+          <img src="/images/family.jpg" alt="picture of a family feeding the giraffes at JEM ZOO" class="overflow-hidden">
+          <!-- Card Content -->
+          <div class="p-4">
+            <h3 class="font-medium text-gray-600 text-lg my-2 uppercase">Feed the giraffes - Family Fun </h3>
+            <p class="text-justify">If you are looking for an amazing fun day out with the family then Jem Zoo is where
+              the fun's at. Our facilities are 100% family friendly and all are welcome.</p>
+            <div class="mt-5">
+              <a href="tickets.html"
+                class="block m-auto w-32 text-center hover:bg-gray-700 rounded-full py-2 px-3 font-semibold hover:text-white bg-green-900 text-gray-100">Book Now</a>
+            </div>
+          </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="lg:m-4 shadow-md hover:shadow-lg rounded-lg bg-white my-12 mx-8 border-4 border-black dark:border-white">
+          <!-- Card Image -->
+          <img src="/images/zebra.jpg" alt="picture of a zebra at JEM ZOO" class="overflow-hidden">
+          <!-- Card Content -->
+          <div class="p-4">
+            <h3 class="font-medium text-gray-600 text-lg my-2 uppercase">Our Animals</h3>
+            <p class="text-justify">We currently have over 60 animals at JEM ZOO from animal groups Amphibians,
+              Reptiles, Birds and Mammals.</p>
+            <div class="mt-5">
+              <a href="animals.html"
+                class="block m-auto w-40 text-center rounded-full py-2 px-3 font-semibold bg-gray-700  text-gray-100">Meet
+                The Animals</a>
+            </div>
+          </div>
+        </div>
+        <!-- Card 3 -->
+        <div class="lg:m-4 shadow-md hover:shadow-lg my-12 mx-8 bg-white border-4 border-black dark:border-white">
+          <!-- Card Image -->
+          <img src="/images/join_us.png" alt="picture of text saying become a member join today" class="overflow-hidden">
+          <!-- Card Content -->
+          <div class="p-4">
+            <h3 class="font-medium text-gray-600 text-lg my-2 uppercase text-center ">Become A Jem Zoo Member</h3>
+            <p class="text-justify">By becoming a member you can visit the zoo all year round. Discover everything Jem
+              Zoo has to offer, it's a gift that just keeps on giving! Get exclusive discounts and offers.</p>
+            <p>*T/Cs apply</p>
+            <div class="mt-5 h-6 pb-10">
+              <a href="#"
+                class="block m-auto w-32 text-center rounded-full py-2 px-3 font-semibold bg-gray-700  text-gray-100">Join
+                Today</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Child event card -->
+    <div class=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10 p-10">
+                <div class="flex w-full border-4 border-yellow-900 dark:border-white dark:text-white bg-yellow-200 opacity-80 dark:bg-yellow-800 rounded-xl shadow overflow-hidden flex-col">
+                  <picture class="w-full h-full p-10">
+                    <img alt="animated picture of a baby holding a camera running from a lion" src="/images/photography_kids.jpg" class="w-full h-full object-cover">
+                  </picture>
+                  <div class="flex flex-col p-4 flex-grow">
+                    <h3 class="font-medium text-xl font-poppins">JEM ZOO Photography Day - Children
+                    </h3>
+                    <div class="py-2">
+                      <ul class="list-disc p-4">
+                        <li>One-hour photography courses at JEM ZOO.</li>
+                        <li>Learn to take great photos.</li>
+                        <li>Hosted by professional wildlife photographer Nick.</li>
+                        <li>Suitable for kid's ages 6-16.</li>
+                        <li>Safety First: No lions will be roaming free.</li>
+                      </ul>
+                      <p class="text-lg font-medium">Only £14.99</p>
+                    </div>
+                    <a class="font-poppins px-4 py-2 text-xl w-auto rounded-lg text-white dark:text-black bg-yellow-900 dark:bg-yellow-400 
+                    border-2 border-white bg-gradient-to-tr hover:from-yellow-400 hover:via-yellow-900 hover:yellow-500 
+                    hover:text-white hover:border-transparent transition-colors duration-200 mt-auto ml-auto"
+                      href="tickets.html">
+                      Book Now
+                    </a>
+                  </div>
+                </div>
+                <!-- Adult event cards -->
+                <div class="flex w-full border-4 border-blue-900 dark:border-white bg-white opacity-80 dark:bg-blue-900 dark:text-white rounded-xl shadow overflow-hidden flex-col">
+                  <picture class="w-full h-full p-10">
+                    <img alt="picture of 3 otters" src="/images/adult.jpg" class="w-full h-full object-cover">
+                  </picture>
+                  <div class="flex flex-col p-4 flex-grow">
+                    <h3 class="font-medium text-xl font-poppins">JEM ZOO Photography Day - Adults
+                    </h3>
+                    <div class="py-2">
+                      <ul class="list-disc p-4">
+                        <li>One-day photography courses at JEM ZOO.</li>
+                        <li>Learn to take great photos of big animals.</li>
+                        <li>Hosted by professional wildlife photographer Carlos.</li>
+                        <li>Wether you're a keen photographer or want to learn something new.</li>
+                      </ul>
+                      <p class="text-lg font-medium">Only £124.99</p>
+                    </div>
+                    <a class="font-poppins px-4 py-2 text-xl w-auto rounded-lg border-2 text-white bg-blue-900 dark:bg-blue-400 border-gray-900 bg-gradient-to-tr hover:from-blue-700 hover:via-blue-500 hover:to-blue-500 hover:text-white hover:border-transparent transition-colors duration-200 mt-auto ml-auto"
+                      href="tickets.html">
+                      Book Now
+                    </a>
+                  </div>
+                </div>
+            </div>
+  </main>
+  <!-- footer -->
+  <footer class="dark: bg-gray-900">
+    <div class="text-3xl font-medium pb-3">JEM ZOO &copy;</div>
+    <div class="footer-row">
+        <ul class="flex">
+        <li><a href="https://www.facebook.com/" aria-label="Facebook" target="_blank" rel="noopener"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.instagram.com/?hl=en" aria-label="instagram" target="_blank" rel="noopener"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.snapchat.com/" aria-label="Snapchat" target="_blank" rel="noopener"><i class="fa fa-snapchat" aria-hidden="true"></i></a></li>
+        <li><a href="https://twitter.com/?lang=en" aria-label="Twitter" target="_blank" rel="noopener"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.linkedin.com/" aria-label="LinkedIn" target="_blank" rel="noopener"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.youtube.co.uk" aria-label="YouTube" target="_blank" rel="noopener"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+        </ul>
+    </div>
+    <div class="footer-row text-center">
+        <ul class="footer-links md:flex text-xl md:text-lg">
+            <li class="md:pr-3"><a href="#">Press & Media</a></li>
+            <li class="md:pr-3"><a href="#">Work with us</a></li>
+            <li class="md:pr-3"><a href="#">Contact us</a></li>
+        </ul>
+    </div>
+</footer>
+  <!-- jquery Script -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"
+    integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+  <!-- Link to JavaScript -->
+  <script src="/src/main.js"></script>
+  <script src="/src/index.js"></script>
+</body>
+</html>

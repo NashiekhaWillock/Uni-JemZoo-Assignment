@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="JEM ZOO - Our Zoo" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/ccs/style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png" />
+    <link rel="manifest" href="/icons/manifest.json" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#54761f" />
+    <title>JEM ZOO - Our Zoo</title>
+</head>
+
+<body class="dark:bg-gray-900">
+    <!-- header -->
+    <header class="header">
+        <!-- navigation -->
+        <nav class="flex items-center bg-green-900 dark:bg-gray-900 p-3 flex-wrap  font-medium md:text-lg">
+            <a href="index.html" class="p-2 mr-4 inline-flex items-center">
+                <picture class="p-1 bg-white mr-2 w-16 h-16"><img src="/images/zoo.png" alt="" srcset="" width="512px"
+                        height="512px" /></picture>
+                <span class="text-4xl md:text-5xl text-white font-bold uppercase tracking-wide">Jem Zoo</span>
+            </a>
+            <button
+                class="text-white inline-flex p-3 hover:bg-gray-900 rounded lg:hidden ml-auto hover:text-white outline-none nav-toggler"
+                data-target="#navigation">
+                <i class="material-icons">Menu</i>
+            </button>
+            <div class="hidden top-navbar w-full lg:inline-flex lg:w-auto" id="navigation">
+                <div
+                    class="lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start flex flex-col lg:h-auto">
+                    <a href="ourzoo.html"
+                        class="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:bg-green-700 hover:text-white">
+                        <span>Our Zoo</span>
+                    </a>
+                    <a href="animals.html"
+                        class="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:bg-green-700 hover:text-white">
+                        <span>Our Animals</span>
+                    </a>
+                    <a href="visit.html"
+                        class="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:bg-green-700 hover:text-white">
+                        <span>Plan Your Visit</span>
+                    </a>
+                    <a href="tickets.html"
+                        class="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:bg-green-700 hover:text-white">
+                        <span>Tickets</span>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- main-content -->
+    <main class="flex-grow max-w-screen-lg m-auto my-5 px-4 sm:px-6 lg:px-8 font-opensans">
+        <!-- current fundraiser card -->
+        <div class="block md:grid grid-cols-1 md:grid-cols-3 lg:grid-cols-1 gap-4 mb-10">
+            <div
+                class="block md:flex w-full bg-white dark:bg-gray-800 dark:text-white rounded-xl shadow overflow-hidden flex-row md:flex-col lg:flex-row dark:border-4 dark:border-white">
+                <picture class="w-52 md:w-full lg:w-52 aspect-w-1 min-w-1/2">
+                    <source srcset="/images/monkey.jpg" />
+                    <img class="w-full h-full object-cover border-4 md:border-2 border-black dark:border-white"
+                        src="/images/monkey.jpg" alt="picture of JEM ZOO monkey" width="1000px" height="678px" />
+                </picture>
+                <div
+                    class="p-4 flex flex-col flex-grow max-w-1/2 border-4 md:border-2 md:border-l-0 border-red-500 dark:border-white">
+                    <h2 class="font-medium font-poppins text-2xl">May Fundraiser</h2>
+                    <h3 class="text-lg font-poppins font-medium">
+                        Sponsor Our Monkey Exhibit
+                    </h3>
+                    <div class="py-4">
+                        <p>
+                            We are trying to raise £10,000 to fund our beautiful monkeys.
+                            Every little heps during these difficult times. Thank you from
+                            everyone here at JEM Zoo and thank you from the monkeys.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- card 1 -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-20">
+            <div
+                class="flex w-full  border-4 border-green-400 dark:border-red-700 bg-white dark:bg-truegray-800 dark:text-white rounded-xl shadow overflow-hidden flex-col">
+                <h2 class="text-2xl font-medium text-center bg-yellow-600 dark:bg-white dark:text-black p-2 text-white">
+                    Conservation
+                </h2>
+                <picture class="w-full h-52">
+                    <img alt="picture of tree growing in broken glass container" src="/images/conservation.jpg"
+                        class="w-full h-full object-cover" width="200px" height="200px" />
+                </picture>
+                <div class="flex flex-col p-4 flex-grow bg-gray-200 dark:bg-gray-600">
+                    <p>
+                        Zoos like ours are conservation powerhouses. Our unique
+                        combination of living collections, millions of visitors,
+                        scientific support and wide ranging skills can be harnessed to
+                        make a substantial contribution to the transformative change
+                        required.
+                    </p>
+                    <p class="pt-2">
+                        We at JEM ZOO are already at the forefront of tackling
+                        biodiversity loss and leading behaviour change amongst our
+                        visitors and supporters. Our work is evidence-based, grounded in
+                        the interlinking of science and practice.
+                    </p>
+                </div>
+            </div>
+            <!-- card 2 -->
+            <div
+                class="flex w-full  border-4 border-indigo-900 dark:border-white bg-white dark:text-white rounded-xl shadow overflow-hidden flex-col">
+                <h2 class="text-2xl font-medium text-center bg-blue-600 p-2 text-white">
+                    Fundraising
+                </h2>
+                <picture class="w-full h-52">
+                    <img alt="picture of cake sale fundraiser" src="/images/fundraiser.webp"
+                        class="w-full h-full object-cover bg-gray-400" width="200px" height="200px" />
+                </picture>
+                <div class="flex flex-col p-4 flex-grow bg-gray-200 dark:bg-gray-800">
+                    <p id="job" class="text-gray-800 mt-2 dark:text-white">
+                        Here at JEM ZOO we are dedicated to creating a safe place for all
+                        animals. In order for us to keep our efforts going we need
+                        <b>Your Help!!!</b>
+                    </p>
+                    <p class="text-gray-800 mt-2 dark:text-white">
+                        There are many ways you can show your support and one of those
+                        ways is through attending our fundraising events.
+                    </p>
+                    <p class="text-gray-800 mt-2 dark:text-white">
+                        We raise funds for many different causes. Together we are all
+                        doing our part to preserve <b>Planet Earth.</b>
+                    </p>
+                    <p class="pt-2 text-base italic text-center font-medium">
+                        Check Out This Months Fundraiser!
+                    </p>
+                </div>
+            </div>
+            <!-- card 3 -->
+            <div
+                class="flex w-full  border-4 border-green-500 bg-white dark:text-white rounded-xl shadow overflow-hidden flex-col">
+                <h2 class="text-2xl font-medium text-center bg-gray-600 dark:bg-yellow-900 p-2 text-white">
+                    Our Animals
+                </h2>
+                <picture class="w-full h-52">
+                    <img alt="picture of JEM ZOO tigers Gianno & Georgia ." src="/images/tigers.jpg"
+                        class="w-full h-full object-cover" width="200px" height="200px" />
+                </picture>
+                <div class="flex flex-col p-4 flex-grow bg-gray-200 dark:bg-red-900">
+                    <p>
+                        JEM ZOO cars for a large amount of animals. We take this
+                        responsibility very serious and give all our animals the best of
+                        care. You donations and support helps us to keep up this vital
+                        work and without the public's contributions and good will we would
+                        not be able to do what we do.
+                    </p>
+                    <p class="pt-2"><b>Thank You Soooooo Much!</b></p>
+                </div>
+            </div>
+            <!-- card 4 -->
+            <div
+                class="flex w-full border-4 border-yellow-300 bg-white dark:bg-truegray-800 dark:text-white rounded-xl shadow overflow-hidden flex-col">
+                <h2 class="text-2xl font-medium text-center bg-green-600 dark:bg-yellow-600 p-2 text-white">
+                    Plants and Gardens
+                </h2>
+                <picture class="w-full h-52">
+                    <img alt="Germany's most successful techno-band Scooter have just announced their spectacular UK tour in early 2021. The sixth chapter of the band's history is in full swing and unstoppable."
+                        src="/images/garden.jpg" class="w-full h-full object-cover bg-gray-400" width="1000px"
+                        height="584px" />
+                </picture>
+                <div class="flex flex-col p-4 flex-grow bg-gray-200 dark:bg-gray-700">
+                    <p>
+                        Take a stroll around our beautiful gardens and take a look at all
+                        our wonderful plants. We have a fantastic selection of plants and
+                        flowers that help enrich the atmosphere around the zoo and attract
+                        local wildlife.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="mt-10">
+            <!-- Header Text-->
+            <h1
+                class="text-center text-2xl font-bold  border-2 border-black dark:border-white p-4 bg-blue-100 dark:bg-green-900 text-black dark:text-gray-200">
+                Events Showcase
+            </h1>
+
+            <div class="relative items-center justify-center pb-2">
+                <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-5 mt-5 pt-5 pb-5">
+                    <!-- Card-1 -->
+                    <div
+                        class="flex w-full border-2 border-black dark:border-white bg-white dark:bg-blue-900 dark:text-white rounded-xl shadow overflow-hidden flex-col">
+                        <h2 class="text-lg font-medium text-center p-2 text-black dark:text-white">
+                            JEM ZOO Nature Reserve Walk - Family Fun
+                        </h2>
+                        <picture class="w-full h-52">
+                            <img src="/images/nature_reserve.jpg" alt="" class="overflow-hidden"
+                                class="w-full h-full object-cover" />
+                        </picture>
+                        <div class="flex flex-col p-4 flex-grow">
+                            <p>
+                                A relaxed walk with our friendly staff to guide you through
+                                our breathtaking nature reserve. Refreshments are provided.
+                                Discover the beauty of the local wildlife and plants with a walk through the our
+                                Nature Reserve.
+                                Staff will be on hand to bring to your attention natures little creatures and share
+                                there knowledge of the area.
+                                Something the whole family could enjoy and the fresh air will also be beneficial.
+                            </p>
+                            <p class="pt-2 text-center font-medium">
+                                *Max of 6 per group*
+                            </p>
+                            <p class="pt-2 text-center font-medium">Tickets only £5.99</p>
+                            <p class="pt-2 text-center font-medium">
+                                Enquire at the ticket office.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- card 2 -->
+                    <div
+                        class="flex w-full bg-white border-2 border-black dark:bg-yellow-800 dark:text-white rounded-xl shadow overflow-hidden flex-col">
+                        <h2
+                            class="text-lg font-medium text-center bg-yellow-100 dark:bg-gray-700 dark:text-white p-2 text-black">
+                            Tea & Cake Talk/Q&A - Adults
+                        </h2>
+                        <picture class="w-full h-52">
+                            <img alt="picture of cake sale fundraiser" src="/images/cake.jpg"
+                                class="w-full h-full object-cover bg-gray-400" width="200px" height="200px" />
+                        </picture>
+                        <div class="flex flex-col p-4 flex-grow">
+                            <p>
+                                Enjoy a talk about various animals by one of our specialist while being served tea
+                                and cake. Ask any questions you may have about the animals at chester zoo, tips abut
+                                what you can do to attract more wildlife in your garden or how to maintain the
+                                wildlife already present in your garden. We also love hearing about your tips and
+                                suggestions as well as what you have been doing to preserve nature.
+                            </p>
+                            <p class="pt-2 text-center font-medium">
+                                *Max of 20 people per session*
+                            </p>
+                            <p class="pt-2 text-center font-medium">Tea & cake priced separately</p>
+                            <p class="pt-2 text-center font-medium">
+                                Enquire at the ticket office.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- card 3 -->
+                    <div
+                        class="flex w-full border-2 border-black dark:border-yellow-200  bg-white dark:bg-gray-700 dark:text-white rounded-xl shadow overflow-hidden flex-col">
+                        <h2 class="text-lg font-medium text-center bg-indigo-600 dark:bg-indigo-900 p-2 text-white">
+                            Photography Workshop - Children
+                        </h2>
+                        <picture class="w-full h-52">
+                            <img src="/images/camera.jpg" alt="" class="overflow-hidden" />
+                        </picture>
+                        <div class="flex flex-col p-4 flex-grow">
+                            <p>
+                                Here at JEM ZOO we are offering a very special
+                                photography workshop for our junior customers. Zoo
+                                Photography for Children is a 6-hours photography workshop,
+                                which provides an ideal opportunity for children, about photography and
+                                wildlife; and to do this together with one of their parents
+                                or another guardian.
+                            </p>
+                            <p class="pt-2 text-center font-medium">
+                                *Aged between 8 and 15*
+                            </p>
+                            <p class="pt-2 text-center font-medium">Tickets only £19.99</p>
+                            <p class="pt-2 text-center font-medium">
+                                Enquire at the ticket office.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="block md:grid grid-cols-1 md:grid-cols-3 lg:grid-cols-1 gap-4 mb-10 mt-10">
+            <!-- next fundraiser card -->
+            <div
+                class="block md:flex w-full bg-white dark:bg-gray-800 dark:text-white rounded-xl shadow overflow-hidden flex-row md:flex-col lg:flex-row">
+                <picture class="w-52 md:w-full lg:w-52 aspect-w-1 min-w-1/2">
+                    <source srcset="/images/costume.jpg" />
+                    <img class="w-full h-full object-cover  border-4 md:border-2 border-black dark:border-white"
+                        src="/images/costume.jpg" alt="picture of people dressed in animal costumes" width="200px"
+                        height="200px" />
+                </picture>
+                <div
+                    class="p-4 flex flex-col flex-grow max-w-1/3 md:w-full border-4 md:border-2 md:border-l-0 border-red-500 dark:border-white">
+                    <h2 class="font-medium font-poppins text-2xl">June Fundraiser</h2>
+                    <h3 class="text-lg font-poppins font-medium">
+                        JEM ZOO Costume Party - *Adults Only*
+                    </h3>
+                    <div class="py-4">
+                        <p>
+                            Dress up as your favorite animal and come party with us here at
+                            JEM ZOO. Due to the current situation this event is not 100%
+                            confirmed as we await further updates from the government.
+                            Please continue to remain patient and supportive during these
+                            challenging times. All funds will go towards the charity <a
+                                href="https://friendsoftheearth.uk/" class="font-medium">Friends of the Earth</a>.
+                        </p>
+                        <p class="pt-2 text-1xl text-center font-medium">
+                            Tickets around £19.99
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- footer -->
+    <footer class="dark: bg-gray-900">
+        <div class="text-3xl font-medium pb-3">JEM ZOO &copy;</div>
+        <div class="footer-row">
+            <ul class="flex">
+            <li><a href="https://www.facebook.com/" aria-label="Facebook" target="_blank" rel="noopener"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+            <li><a href="https://www.instagram.com/?hl=en" aria-label="instagram" target="_blank" rel="noopener"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            <li><a href="https://www.snapchat.com/" aria-label="Snapchat" target="_blank" rel="noopener"><i class="fa fa-snapchat" aria-hidden="true"></i></a></li>
+            <li><a href="https://twitter.com/?lang=en" aria-label="Twitter" target="_blank" rel="noopener"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+            <li><a href="https://www.linkedin.com/" aria-label="LinkedIn" target="_blank" rel="noopener"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+            <li><a href="https://www.youtube.co.uk" aria-label="YouTube" target="_blank" rel="noopener"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-row text-center">
+            <ul class="footer-links md:flex text-xl md:text-lg">
+                <li class="md:pr-3"><a href="#">Press & Media</a></li>
+                <li class="md:pr-3"><a href="#">Work with us</a></li>
+                <li class="md:pr-3"><a href="#">Contact us</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+<!-- jquery script -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"
+    integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+    <script src="/src/main.js"></script>
+<script src="/src/menu.js"></script>
+
+</html>

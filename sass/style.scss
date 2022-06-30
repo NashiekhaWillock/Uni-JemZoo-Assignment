@@ -1,0 +1,220 @@
+/* Kid's Page */
+.main {
+  background-color: rgb(200, 250, 229);
+}
+.garden {
+  place-content: center;
+  display: block;
+  display: grid;
+  background-color: rgb(200, 250, 229);
+  margin-bottom: 2rem;
+
+  &_img-div {
+    background-color: rgb(252, 211, 77);
+  }
+  &_text {
+    background-color: rgb(52, 211, 152);
+  }
+  @media (min-width: 768px) {
+    .garden_text {
+      background-color: rgb(255, 255, 255);
+    }
+  }
+  img {
+    width: 12rem;
+    height: 12rem;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.header {
+  background-color: rgb(6, 78, 59);
+
+  &__mainnav {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0.75rem;
+    color: #fff;
+  }
+  &__mainnav a:first-child {
+    padding: 0.5rem;
+    margin-right: 1rem;
+    display: inline-flex;
+    align-items: center;
+  }
+  &__mainnav picture {
+    background: #fff;
+    padding: 0.25rem;
+    margin-right: 0.5rem;
+  }
+  &__logo {
+    font-size: 3rem;
+    line-height: 1;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+  }
+  &__btn {
+    color: rgb(156, 163, 175);
+  }
+}
+.title {
+  background-color: rgb(6, 78, 59);
+  padding-bottom: 0.5rem;
+  text-align: center;
+  width: 100%;
+
+  &__1 {
+    color: #ff9f43;
+  }
+  &__2 {
+    color: #0abde3;
+  }
+  &__3 {
+    color: #ee5253;
+  }
+  &__4 {
+    color: #00d2d3;
+  }
+}
+@mixin displayCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  .container-glow {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+
+    .neon_card {
+      width: 300px;
+      height: 400px;
+      background: #000000;
+      margin: auto;
+      position: relative;
+      @include displayCenter();
+      color: #ffffff;
+
+      &::before {
+        position: absolute;
+        content: "";
+        background: linear-gradient(235deg, #656961, #060c21, #7a8081);
+        top: -2px;
+        bottom: -2px;
+        left: -2px;
+        right: -2px;
+        z-index: -1;
+      }
+
+      &::after {
+        position: absolute;
+        content: "";
+        background: linear-gradient(235deg, #96ee6a, #060c21, #878b8b);
+        top: -5px;
+        bottom: -5px;
+        left: -5px;
+        right: -5px;
+        z-index: -2;
+        filter: blur(50px);
+      }
+    }
+
+    .second {
+      &::before {
+        background: linear-gradient(235deg, #ffbb00, #060c21, #d40063);
+      }
+
+      &::after {
+        background: linear-gradient(235deg, #ffbb00, #060c21, #d40063);
+      }
+    }
+
+    .third {
+      &::before {
+        background: linear-gradient(235deg, #e100ff, #060c21, #3700ff);
+      }
+
+      &::after {
+        background: linear-gradient(235deg, #e100ff, #060c21, #3700ff);
+      }
+    }
+  }
+}
+
+/* Footer */
+
+footer {
+  background-color: rgb(6, 78, 59);
+  color: white;
+  width: 100%;
+  text-align: center;
+  padding: 2rem 0;
+  margin-top: auto;
+
+  .footer-row {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    padding-bottom: 1rem;
+    list-style: none;
+
+    a {
+      display: flex;
+      align-items: center;
+    }
+
+    .fa {
+      font-size: 30px;
+      width: 50px;
+      text-align: center;
+      text-decoration: none;
+    }
+    .fa:hover, .footer-links a:hover {
+      color: #c5c5c5;
+      transition: color 0.3s ease-in;
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .menu-item {
+    display: inline-flex;
+    flex-direction: row;
+}
+}
+
+.menu-item{
+  margin-top: .3rem;
+  margin-bottom: .5rem;
+}
+
+.main-menu{
+&__link {
+  color:rgb(243, 239, 239);
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  border-radius: 0.25rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  letter-spacing: 0.025em;
+  
+  }
+
+  &__link:hover {
+    background-color: rgb(4, 120, 87);
+    color: #fff;
+  }
+}

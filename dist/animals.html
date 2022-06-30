@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="JEM ZOO - Home">
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/ccs/style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png" />
+    <link rel="manifest" href="/icons/manifest.json" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#54761f" />
+    <title>JEM ZOO - Home</title>
+</head>
+
+<body class="bg-gray-300 dark:bg-gray-700">
+
+    <header class=" bg-green-900 mb-5 dark:bg-gray-900">
+        <nav class="flex items-center bg-green-900 dark:bg-gray-900 p-3 flex-wrap  font-medium md:text-lg">
+            <a href="index.html" class="p-2 mr-4 inline-flex items-center">
+                <picture class="p-1 bg-white mr-2 w-16 h-16"><img src="/images/zoo.png" alt="" srcset="" width="512px"
+                        height="512px"></picture>
+                <span class="text-4xl md:text-5xl text-white font-bold uppercase tracking-wide">Jem Zoo</span>
+            </a>
+            <button
+                class="text-white inline-flex p-3 hover:bg-gray-900 rounded lg:hidden ml-auto hover:text-white outline-none nav-toggler"
+                data-target="#navigation">
+                <i class="material-icons">Menu</i>
+            </button>
+            <div class="hidden top-navbar w-full lg:inline-flex lg:w-auto" id="navigation">
+                <div
+                    class="lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start flex flex-col lg:h-auto">
+                    <a href="ourzoo.html"
+                        class="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:bg-green-700 hover:text-white">
+                        <span>Our Zoo</span>
+                    </a>
+                    <a href="animals.html"
+                        class="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:bg-green-700 hover:text-white">
+                        <span>Our Animals</span>
+                    </a>
+                    <a href="visit.html"
+                        class="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:bg-green-700 hover:text-white">
+                        <span>Plan Your Visit</span>
+                    </a>
+                    <a href="tickets.html"
+                        class="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:bg-green-700 hover:text-white">
+                        <span>Tickets</span>
+                    </a>
+                </div>
+            </div>
+        </nav>
+        <div class="bg-green-900 dark:bg-gray-900">
+            <!-- Slide -->
+            <div
+                class="slide-container flex justify-center items-center max-w-4xl m-auto relative rounded-lg border-2 border-green-300">
+                <div class="slide fade">
+                    <img src="/images/story.jpeg"
+                        alt="picture of caterpillar reading a book advertising JEM ZOO story time for children"
+                        class=" w-full rounded-lg">
+                </div>
+                <div class="slide fade">
+                    <img src="/images/nature_banner.jpg" alt="picture advertising JEM ZOO nature reserve"
+                        class="w-full rounded-lg">
+                </div>
+                <div class="slide fade">
+                    <img src="/images/adult_event_banner.jpg"
+                        alt="picture advertising JEM ZOO night at the zoo for adults 21 plus" class="w-full rounded-lg">
+                </div>
+                <a href="#"
+                    class="prev cursor-pointer absolute top-1/2 w-auto -mt-5 p-3 text-white text-xl transition-all ease-in rounded-xl select-none hover:bg-green-900 left-1"
+                    title="Previous">&#10094</a>
+                <a href="#"
+                    class="next cursor-pointer absolute top-1/2 w-auto -mt-5 p-3 text-white text-xl transition-all ease-in rounded-xl select-none hover:bg-green-900 right-1"
+                    title="Next">&#10095</a>
+            </div>
+            <!-- Slide-buttons -->
+            <div class="dots-container flex justify-center items-center p-2 cursor-pointer bg-green-900 dark:bg-gray-900"
+                style="text-align:center">
+                <span class="dot cursor-pointer m-1 w-5 h-5 bg-white rounded-2xl"></span>
+                <span class="dot cursor-pointer m-1 w-5 h-5 bg-white rounded-2xl"></span>
+                <span class="dot cursor-pointer m-1 w-5 h-5 bg-white rounded-2xl"></span>
+            </div>
+        </div>
+    </header>
+
+    <main class="flex-grow max-w-screen-lg m-auto my-5 px-4 sm:px-6 lg:px-8 font-opensans">
+
+        <section class="bg-gray-500 dark:bg-gray-200 h-50 p-2 pb-6 md:text-base lg:text-lg md:p-8 mb-10">
+            <div class="container mx-auto py-8">
+                <input
+                    class=" searchBar w-full h-16 rounded mb-8 focus:outline-none focus:shadow-outline text-xl px-8 shadow-lg border dark:border-4 dark:border-black"
+                    id="searchBar" type="search" placeholder="Search...">
+                <nav class="flex items-center justify-items-center m-auto text-sm md:text-lg">
+                    <a class="no-underline text-white py-1 px-1 font-medium bg-gray-700  hover:bg-gray-800"
+                        href="#">Mammals</a>
+                    <a class="no-underline text-white py-1 px-1 font-medium mx-1 bg-gray-700  hover:bg-gray-800"
+                        href="#">Amphibians</a>
+                    <a class="no-underline text-white py-1 px-1 font-medium mx-1 bg-gray-700 hover:bg-gray-800"
+                        href="#">Reptiles</a>
+                    <a class="no-underline text-white py-1 px-1 font-medium mx-1 bg-gray-700  hover:bg-gray-800"
+                        href="#">Birds</a>
+                </nav>
+                <div class="mt-5 float-right">
+                    <a href="animals.html"
+                        class="hover:bg-green-900 rounded-full py-2 px-3 font-semibold hover:text-white bg-gray-900 text-gray-100">Search</a>
+                </div>
+            </div>
+        </section>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+
+            <div
+                class="flex w-full bg-white dark:bg-indigo-800 dark:text-white rounded-xl shadow overflow-hidden flex-col">
+                <picture class="w-full h-52">
+                    <img alt="picture of an Aardvark" src="/images/Aardvark.jpg" class="w-full h-full object-cover" />
+                </picture>
+                <div class="flex flex-col p-4 flex-grow">
+                    <h3 class="font-medium text-2xl font-poppins p-2 text-center">
+                        Aaardvark
+                    </h3>
+                    <h3 class="text-lg font-poppins">
+                        Aardvarks are mammals that look like they were made from parts of other animals. An aardvark has
+                        a long snout that ends with a pig-like nose, rabbit-like ears and a tail similar to a
+                        kangaroo's. Yet it is not closely related to any of those animals. Aardvarks are found
+                        throughout sub-Saharan Africa.
+                    </h3>
+
+                    <p class="text-xs p-1">
+                        Ref: Facts About Aardvarks | Live Sciencehttps://www.livescience.com › 55241-aardvark-facts</p>
+                </div>
+            </div>
+
+            <div
+                class="flex w-full bg-white dark:bg-indigo-800  dark:text-white rounded-xl shadow overflow-hidden flex-col">
+                <picture class="w-full h-52">
+                    <img alt="picture of Armadillo" src="/images/armadillo-ninebanded.jpg"
+                        class="w-full h-full object-cover" />
+                </picture>
+                <div class="flex flex-col p-4 flex-grow">
+                    <h3 class="font-medium text-2xl font-poppins p-2 text-center">
+                        Armadillo
+                    </h3>
+                    <h3 class="text-lg font-poppins">
+                        Armadillos can be found in many different habitats of South America, ranging from grassland to
+                        rainforest, but are mainly found on open plains.
+
+                        They have five toes on each foot equipped with sharp claws that are well developed for digging.
+                        These solitary creatures keep their dens for longer than other species.
+                    </h3>
+                </div>
+            </div>
+
+            <div
+                class="flex w-full bg-white dark:bg-indigo-800  dark:text-white rounded-xl shadow overflow-hidden flex-col">
+                <picture class="w-full h-52">
+                    <img alt="picture of JEM ZOO aquarium" src="/images/aquarium.jpg"
+                        class="w-full h-full object-cover" />
+                </picture>
+                <div class="flex flex-col p-4 flex-grow">
+                    <h3 class="font-medium text-2xl font-poppins p-2 text-center">
+                        Aquarium
+                    </h3>
+                    <h3 class="text-lg font-poppins">
+                        Discover how fish have adapted to some of the world’s most
+                        challenging habitats. With over 300 sea water creatures such as
+                        fish, turtles, eels, shellfish, sharks and octopus.
+                    </h3>
+                </div>
+            </div>
+
+            <div
+                class="flex w-full bg-white dark:bg-indigo-800  dark:text-white rounded-xl shadow overflow-hidden flex-col">
+                <picture class="w-full h-52">
+                    <img alt="picture of asian_elephant" src="/images/asian_elephant.jpg"
+                        class="w-full h-full object-cover" />
+                </picture>
+                <div class="flex flex-col p-4 flex-grow">
+                    <h3 class="font-medium text-2xl font-poppins p-2 text-center">
+                        Asian Elephant
+                    </h3>
+                    <h3 class="text-lg font-poppins">
+                        Asian elephants are the continent's largest terrestrial mammals. They can reach 6.4m in length
+                        and 3m at the shoulder, and weigh as much as 5 tonnes. They are smaller than African elephants
+                        and have proportionally smaller ears, which they keep in constant motion in order to cool
+                        themselves.
+                    </h3>
+                    <p class="text-xs p-1">Ref: Asian elephants | WWFhttps://wwf.panda.org › discover ›
+                        endangered_species
+                    </p>
+                </div>
+            </div>
+
+            <div
+                class="flex w-full bg-white dark:bg-indigo-800  dark:text-white rounded-xl shadow overflow-hidden flex-col">
+                <picture class="w-full h-52">
+                    <img alt="picture of a Bornean-Orangutan" src="/images/Bornean-Orangutan.jpg"
+                        class="w-full h-full object-cover" />
+                </picture>
+                <div class="flex flex-col p-4 flex-grow">
+                    <h3 class="font-medium text-2xl font-poppins p-2 text-center">
+                        Bornean Orangutan
+                    </h3>
+                    <h3 class="text-lg font-poppins">
+                        The orangutan, with its distinctive red-orange hair, is the only ape that inhabits Asia.
+                        Weighing up to 90 kg (200 lb.), the Bornean orangutan is about 1-1.5 m tall (3.5-4.5 ft.) with
+                        an arm span as long as 2.5 m (8 ft.).
+                    </h3>
+                    <p class="text-xs p-1">Ref: Bornean Orangutan Facts | Endangered Animals
+                    </p>
+                </div>
+            </div>
+
+            <div
+                class="flex w-full bg-white dark:bg-indigo-800  dark:text-white rounded-xl shadow overflow-hidden flex-col">
+                <picture class="w-full h-52">
+                    <img alt="picture of a black rhino" src="/images/black_rhino.jpg"
+                        class="w-full h-full object-cover" />
+                </picture>
+                <div class="flex flex-col p-4 flex-grow">
+                    <h3 class="font-medium text-2xl font-poppins p-2 text-center">
+                        Black Rhino
+                    </h3>
+                    <h3 class="text-lg font-poppins">
+                        As the saying goes, rhinos do have thick skin, but they can still get sun burnt. Rhinoceros is a
+                        Greek word. Black rhinos are the third biggest of the five types of rhino.
+                    </h3>
+                </div>
+            </div>
+            <div
+                class="flex w-full bg-white dark:bg-indigo-800 dark:text-white rounded-xl shadow overflow-hidden flex-col">
+                <picture class="w-full h-52">
+                    <img alt="picture of a black lemur" src="/images/black_lemur.jpg"
+                        class="w-full h-full object-cover" />
+                </picture>
+                <div class="flex flex-col p-4 flex-grow">
+                    <h3 class="font-medium text-2xl font-poppins p-2 text-center">
+                        Black Lemur
+                    </h3>
+                    <h3 class="text-lg font-poppins">
+                        Not all black lemurs are coloured black. The fur of a male lemur is either very dark brown or
+                        black, whereas females are a much lighter shade of brown making it easy to tell them apart.
+                    </h3>
+                    <p class="text-xs p-1">Ref:
+                        Black Lemur | Meet Our Animals | Plan Your Visit | Chester Zoohttps://www.chesterzoo.org ›
+                        our-zoo › black-lemur</p>
+                </div>
+            </div>
+            <div
+                class="flex w-full bg-white dark:bg-indigo-800 dark:text-white rounded-xl shadow overflow-hidden flex-col">
+                <picture class="w-full h-52">
+                    <img alt="picture of some flamingos" src="/images/flamingos.jpg"
+                        class="w-full h-full object-cover" />
+                </picture>
+                <div class="flex flex-col p-4 flex-grow">
+                    <h3 class="font-medium text-2xl font-poppins p-2 text-center">
+                        Caribbean Flamingo
+                    </h3>
+                    <h3 class="text-lg font-poppins">
+                        Caribbean flamingos are tall, large bodied birds with long necks and small heads. Most flamingos
+                        have bright pink or crimson plumage, legs, and bills. The Caribbean flamingo is by far the
+                        brightest and one of the largest of all the flamingos. Size Approximately 80–145 cm (31–57 in.)
+                    </h3>
+                    <p class="text-xs p-1">Ref:
+
+                        Caribbean Flamingo Facts and Information | SeaWorld Parks ...https://seaworld.org › animals ›
+                        facts › birds › caribbea...
+                    </p>
+                </div>
+            </div>
+            <div
+                class="flex w-full bg-white dark:bg-indigo-800  dark:text-white rounded-xl shadow overflow-hidden flex-col">
+                <picture class="w-full h-52">
+                    <img alt="picture of a chimpanzee" src="/images/chimpanzee.jpg"
+                        class="w-full h-full object-cover" />
+                </picture>
+                <div class="flex flex-col p-4 flex-grow">
+                    <h3 class="font-medium text-2xl font-poppins p-2 text-center">
+                        Chimpanzee
+                    </h3>
+                    <h3 class="text-lg font-poppins">
+                        Chimpanzees are one of four types of “great ape.”
+                        The great apes are: chimpanzees, bonobos, gorillas, and orangutans.
+                        Wild chimpanzees only live in Africa.
+                    </h3>
+                    <p class="text-xs p-1">Ref:
+                        Chimp Facts - Jane Goodall Institute UKhttps://www.janegoodall.org.uk › chimpanzee-central
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <footer class="dark: bg-gray-900">
+        <div class="text-3xl font-medium pb-3">JEM ZOO &copy;</div>
+        <div class="footer-row">
+            <ul class="flex">
+            <li><a href="https://www.facebook.com/" aria-label="Facebook" target="_blank" rel="noopener"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+            <li><a href="https://www.instagram.com/?hl=en" aria-label="instagram" target="_blank" rel="noopener"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            <li><a href="https://www.snapchat.com/" aria-label="Snapchat" target="_blank" rel="noopener"><i class="fa fa-snapchat" aria-hidden="true"></i></a></li>
+            <li><a href="https://twitter.com/?lang=en" aria-label="Twitter" target="_blank" rel="noopener"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+            <li><a href="https://www.linkedin.com/" aria-label="LinkedIn" target="_blank" rel="noopener"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+            <li><a href="https://www.youtube.co.uk" aria-label="YouTube" target="_blank" rel="noopener"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-row text-center">
+            <ul class="footer-links md:flex text-xl md:text-lg">
+                <li class="md:pr-3"><a href="#">Press & Media</a></li>
+                <li class="md:pr-3"><a href="#">Work with us</a></li>
+                <li class="md:pr-3"><a href="#">Contact us</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"
+        integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+    <script src="/src/index.js"></script>
+    <script src="/src/main.js"></script>
+</body>
+
+</html>
